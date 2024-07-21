@@ -6,6 +6,9 @@ return {
 			options = {
 				cursorline = true,
 			},
+			colors = {
+				-- dark = { bg = "#23272e" }, -- yellow
+			}
 		})
 		--  vim.cmd("colorscheme onedark_dark")
 	end,
