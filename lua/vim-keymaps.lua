@@ -8,7 +8,9 @@ keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
 keymap.set("n", "<C-a>", "gg<S-v>G")
 
 keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
-keymap.set("n", "<leader>sf", ":source % <CR>", {desc = "Save file"})
+keymap.set("n", "<leader>sf", ":source % <CR>", {desc = "Source file"})
+keymap.set("n", "<C-s", ":w<CR>", {desc = "Save"})
+
 
 -- increment/decrement numbers
 keymap.set("n", "<leader>+", "<C-a>", { desc = "Increment number" }) -- increment
