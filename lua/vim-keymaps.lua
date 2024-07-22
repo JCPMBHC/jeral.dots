@@ -9,7 +9,7 @@ keymap.set("n", "<C-a>", "gg<S-v>G")
 
 keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
 keymap.set("n", "<leader>sf", ":source % <CR>", {desc = "Source file"})
-keymap.set("n", "<C-s", ":w<CR>", {desc = "Save"})
+keymap.set("n", "<C-S>", ":update <CR>", {desc = "Save"})
 
 
 -- increment/decrement numbers
