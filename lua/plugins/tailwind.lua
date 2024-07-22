@@ -34,7 +34,7 @@ return {
 			-- set keymaps
       local keymap = vim.keymap -- for conciseness
 
-      keymap.set("n", "<leader>tc", "<cmd>TailwindConcealToggle<cr>", { desc = "Toggles conceal class" })
+      keymap.set("n", "<leader>tb", "<cmd>TailwindConcealToggle<cr>", { desc = "Toggles conceal class" })
 
       keymap.set("n", "<leader>tg", "<cmd>TailwindColorToggle<cr>", { desc = "Toggles color hints" })
 
