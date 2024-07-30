@@ -36,7 +36,7 @@ return {
 				"graphql",
 				"emmet_ls",
 				"prismals",
-        "astro"
+				"astro"
 			},
 		})
 
