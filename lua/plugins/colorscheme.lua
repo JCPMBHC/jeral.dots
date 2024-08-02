@@ -55,7 +55,7 @@ return {
     priority = 1000,
     config = function()
       vim.g.moonflyTransparent = true
-      vim.g.moonflyNormalFloat = true
+      -- vim.g.moonflyNormalFloat = true
       vim.g.moonflyItalics = false
       -- vim.g.moonflyTerminalColors = false
       vim.g.moonflyUnderlineMatchParen = true
